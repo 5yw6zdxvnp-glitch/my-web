@@ -1,0 +1,114 @@
+
+body {
+    background-color: #f4f5f7;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;    /* Đã sửa từ 80px lên 800px */
+    margin: 0 auto;
+    gap: 25px;
+    box-sizing: border-box; /* Đã sửa lỗi chính tả boder-box */
+    padding: 0 15px;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-left img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+.card-right h1 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    color: #111;
+}
+
+.card-right p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.to-do-list {
+    width: 100%;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.to-do-list h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.to-do-list input {
+    margin-bottom: 10px;
+}
+
+.board {
+    width: 100%;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.board h2 {
+    color: darkblue;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.board table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+}
+
+.board th, .board td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.board th {
+    background: #2e86de;
+    color: white;
+}
+
+.board tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.board tr:hover {
+    background: #eaf2ff;
+}
